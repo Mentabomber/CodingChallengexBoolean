@@ -1,0 +1,65 @@
+body{
+    background-image: url("background.jpg");
+    background-size: cover;
+}
+.contenitore{
+    background-color: rgba(0, 0, 0, 0.5);
+    margin: auto;
+    padding: 5%;
+    width: 1200px;
+    border-radius: 5%;
+}
+header,nav{
+    text-align: center;
+}
+button{
+    margin: 5px;
+    padding: 5px;
+    }
+h1
+{
+    font-size: xx-large;
+    color: chartreuse;
+}
+nav > div{
+    background-color: chartreuse;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    margin-left: 1%;
+    margin-right: 1%;
+}
+section > div {
+    height: 30px;
+    border-radius: 5%;
+}
+section{
+    margin: auto;
+    font-size: larger;
+    color: white;
+}
+    
+section > span::before
+{
+    content: "\21A6";
+    margin-left: 5px;
+    margin-right: 5px;
+}
+h2 {
+    display: inline-block;
+}
+/* Colore e lunghezza rettangoli*/
+.red {
+    width: 150px;
+    background-color: brown;
+}
+.green{
+    width: 700px;
+    background-color: chartreuse;
+}
+.orange{
+    width: 400px;
+    background-color: orange;
+}
+
+
+
